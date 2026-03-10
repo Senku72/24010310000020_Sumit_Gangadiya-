@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Nike Ahmedabad</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #e5e5e5;
+            font-family: inherit;
+        }
+
+        .contact-form button {
+            width: 100%;
+            padding: 15px;
+            background: #111;
+            color: white;
+            border: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">NIKE</a>
+    </header>
+
+    <main class="section">
+        <h1 style="margin-bottom: 60px; text-align: center;">Get Help</h1>
+
+        <div class="contact-container">
+            <div>
+                <h2 style="margin-bottom: 20px;">Contact Info</h2>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="margin-bottom: 5px;">📍 ADDRESS</h4>
+                    <p>Ahmedabad Lifestyle Store<br>S.G. Highway, Ahmedabad,<br>Gujarat 380015</p>
+                </div>
+                <div style="margin-bottom: 30px;">
+                    <h4 style="margin-bottom: 5px;">📧 EMAIL</h4>
+                    <p>2401031000020@silveroakuni.ac.in</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 5px;">📞 PHONE</h4>
+                    <p>+91 91234 56780</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2 style="margin-bottom: 20px;">Send us a Message</h2>
+                <form action="#">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nike Clone. Ahmedabad Store.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
